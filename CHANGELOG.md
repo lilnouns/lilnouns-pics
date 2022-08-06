@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2022-08-06
+
+### <!-- 01 -->Features
+
+- Add a new middleware to proxy api requests through workers
+
+### <!-- 04 -->Refactor
+
+- Add token id pages basic structure
+- Implement client side fetching on token id pages
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update favicon with cleaner version
+- Add `wrangler@2.0.24` to dependencies
+- Exclude the functions directory to avoid conflicts
+- Add `@cloudflare/workers-types@3.14.1` to dependencies
+- Create a `tsconfig.json` file in `functions` folder
+- Add `serve@14.0.1` to dependencies
+- Replace default start script by `serve`
+
 ## [1.0.0-alpha.0] - 2022-08-06
 
 ### <!-- 04 -->Refactor

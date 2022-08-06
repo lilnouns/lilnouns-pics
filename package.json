@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
     "preexport": "npm run build",
-    "export": "next export"
+    "export": "next export",
+    "prestart": "npm run export",
+    "start": "serve out"
   },
   "dependencies": {
     "next": "12.2.4",

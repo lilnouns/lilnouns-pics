@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"

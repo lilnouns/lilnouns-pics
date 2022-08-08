@@ -47,23 +47,14 @@ export const getStaticProps: GetStaticProps = async (context: GetStaticPropsCont
 
   if (!tokenId) return {notFound: true};
 
-  const response = await fetch(
-    `https://api.lilnouns.dev/nouns/${tokenId}`
-  );
-
-  const data = await response.json();
-
-  console.log(data);
-
   return ({
-    // Passed to the page component as props
-    props: {noun: data.data.noun},
+    props: {tokenId},
   });
 };
 
-const Noun = ({noun}: any) => {
+const Noun = ({tokenId}: any) => {
   const router = useRouter()
-  const {tokenId} = router.query
+  // const {tokenId} = router.query
 
   const [image, setImage] = useState<any>({})
   const [isLoading, setLoading] = useState(false)

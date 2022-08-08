@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2022-08-08
+
+### <!-- 04 -->Refactor
+
+- Improve `getStaticPaths` over token pages
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `react-base64-downloader@2.1.7` to the dependencies
+
 ## [1.0.0-alpha.4] - 2022-08-08
 
 ### <!-- 02 -->Bug Fixes

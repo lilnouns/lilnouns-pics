@@ -24,15 +24,13 @@ function classNames(...classes: string[]) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch(
-    'https://api.lilnouns.dev/nouns'
-  );
+  const response = await fetch('/api/nouns');
 
-  const contentRange = response.headers.get('content-range')
-  const nounsCount = contentRange ? contentRange.split('/')[1] as unknown as number : 0;
+  const range = response.headers.get('content-range')
+  const count = range?.split('/')[1] as unknown as number;
 
-  const paths = Array.from({length: (nounsCount)}, (v, k) => k)
-    .filter(p => p !== 404 && p !== 500)
+  const paths = Array.from({length: count}, (_, k) => k)
+    .filter(tokenId => tokenId !== 404 && tokenId !== 500)
     .map((tokenId) => ({params: { tokenId: `${tokenId}` },}));
 
   return ({

@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-pics",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,6 +16,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "next": "12.2.4",
     "react": "18.2.0",
+    "react-base64-downloader": "^2.1.7",
     "react-dom": "18.2.0"
   },
   "devDependencies": {

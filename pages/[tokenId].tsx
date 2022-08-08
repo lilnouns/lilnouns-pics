@@ -8,7 +8,7 @@ import Head from "next/head";
 const mimeOptions = [
   {name: 'SVG', value: 'svg'},
   {name: 'PNG', value: 'png'},
-  {name: 'JPG', value: 'jpg'},
+  {name: 'JPG', value: 'jpeg'},
   {name: 'WebP', value: 'webp'},
 ]
 

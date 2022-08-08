@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2022-08-08
+
+### <!-- 01 -->Features
+
+- Add new option to remove background of images
+- Add download link over image after generated
+- Add go to form over home page
+
+### <!-- 02 -->Bug Fixes
+
+- Change mime type of jpeg images
+
+### <!-- 04 -->Refactor
+
+- Replace hardcode urls by environmental variables
+- Update token id type and cleanup codes
+- Rename environmental variables
+- Replace switches by list box on token page
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `@heroicons/react@1.0.6` to the dependencies
+- Add `@tailwindcss/forms@0.5.2` to the dependencies
+- Add `@tailwindcss/forms` to the tailwind plugins
+
 ## [1.0.0-alpha.5] - 2022-08-08
 
 ### <!-- 04 -->Refactor

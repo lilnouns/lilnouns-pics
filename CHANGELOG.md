@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.4] - 2022-08-08
+
+### <!-- 02 -->Bug Fixes
+
+- Solve error pages confilct temporary
+
 ## [1.0.0-alpha.3] - 2022-08-08
 
 ### <!-- 04 -->Refactor

@@ -24,7 +24,7 @@ function classNames(...classes: string[]) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch(`${process.env.REMOTE_API_URL}/nouns`);
+  const response = await fetch(`${process.env.MAIN_PRIVATE_API_URL}/nouns`);
 
   const range = response.headers.get('content-range')
   const count = range?.split('/')[1] as unknown as number;
@@ -62,7 +62,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
 
   const fetchImage = (tokenId: string, size?: number, mime?: string) => {
     setLoading(true)
-    fetch(`${process.env.WORKER_API_URL}/nouns/${tokenId}/images`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/nouns/${tokenId}/images`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

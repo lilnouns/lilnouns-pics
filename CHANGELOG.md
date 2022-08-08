@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2022-08-08
+
+### <!-- 01 -->Features
+
+- Add static page generation for lil nouns
+
+### <!-- 04 -->Refactor
+
+- Change body background at document level
+- Implement the token id page structure
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `react-hook-form` to dependencies
+- Add `@headlessui/react` to the dependencies
+- Add `@tailwindcss/aspect-ratio@0.4.0` to the dependencies
+- Add `@tailwindcss/aspect-ratio` to the tailwind plugins
+- Add the loading skull to the image assets
+
 ## [1.0.0-alpha.1] - 2022-08-06
 
 ### <!-- 01 -->Features

@@ -7,6 +7,7 @@ class MyDocument extends Document {
   }
 
   render() {
+    // noinspection HtmlRequiredTitleElement
     return (
       <Html>
         <Head>
@@ -16,7 +17,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
           />
         </Head>
-        <body>
+        <body className="bg-neutral-100">
         <Main/>
         <NextScript/>
         </body>

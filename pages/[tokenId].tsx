@@ -92,13 +92,18 @@ const Noun = ({tokenId}: { tokenId: string }) => {
             <h1 className="px-10 py-3">{mime.name} - {size.name} - {back ? 'Normal' : 'Transparent'}</h1>
 
             <div className="p-10">
-              <Image
-                alt={""}
-                src={!isLoading ? image.body : "/assets/images/lil-loading-skull.gif"}
-                width={256}
-                height={256}
-                className="border border-neutral-300 rounded-md"
-              />
+              <a
+                href={image.body}
+                download={`noun-${tokenId}@${image.size}`}
+              >
+                <Image
+                  alt={""}
+                  src={!isLoading ? image.body : "/assets/images/lil-loading-skull.gif"}
+                  width={256}
+                  height={256}
+                  className="border border-neutral-300 rounded-md"
+                />
+              </a>
             </div>
 
             <div className="px-10 py-3">
@@ -181,7 +186,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                 type="submit"
                 className="mt-2 w-full bg-zinc-200 border border-neutral-300 rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-neutral-800 opacity-50 hover:bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-zinc-500"
               >
-                Download
+                Generate
               </button>
             </div>
           </div>

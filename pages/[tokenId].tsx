@@ -31,7 +31,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   const paths = Array.from({length: count}, (_, k) => k)
     .filter(tokenId => tokenId !== 404 && tokenId !== 500)
-    .map((tokenId) => ({params: { tokenId: `${tokenId}` },}));
+    .map((tokenId) => ({params: {tokenId: `${tokenId}`},}));
 
   return ({
     paths,
@@ -49,10 +49,7 @@ export const getStaticProps: GetStaticProps = async (context: GetStaticPropsCont
   });
 };
 
-const Noun = ({tokenId}: any) => {
-  const router = useRouter()
-  // const {tokenId} = router.query
-
+const Noun = ({tokenId}: { tokenId: string }) => {
   const [image, setImage] = useState<any>({})
   const [isLoading, setLoading] = useState(false)
 
@@ -60,10 +57,10 @@ const Noun = ({tokenId}: any) => {
   const [size, setSize] = useState(sizeOptions[0])
 
   useEffect(() => {
-    fetchImage(tokenId as unknown as number)
+    fetchImage(tokenId)
   }, [tokenId])
 
-  const fetchImage = (tokenId: number, size?: number, mime?: string) => {
+  const fetchImage = (tokenId: string, size?: number, mime?: string) => {
     setLoading(true)
     fetch(`${process.env.WORKER_API_URL}/nouns/${tokenId}/images`, {
       method: 'POST',
@@ -156,7 +153,7 @@ const Noun = ({tokenId}: any) => {
 
             <div className="px-10 py-3">
               <button
-                onClick={() => fetchImage(tokenId as unknown as number, size.value, mime.value)}
+                onClick={() => fetchImage(tokenId, size.value, mime.value)}
                 type="submit"
                 className="mt-2 w-full bg-zinc-200 border border-neutral-300 rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-neutral-800 opacity-50 hover:bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-zinc-500"
               >

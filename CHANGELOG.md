@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2022-08-08
+
+### <!-- 04 -->Refactor
+
+- Remove useless console logs
+- Remove fetching nouns data on build
+
 ## [1.0.0-alpha.2] - 2022-08-08
 
 ### <!-- 01 -->Features

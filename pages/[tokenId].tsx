@@ -29,12 +29,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
   );
 
   const contentRange = response.headers.get('content-range')
-  const nounsCount = contentRange ? contentRange.split('/')[1] : 0;
+  const nounsCount = contentRange ? contentRange.split('/')[1] as unknown as number : 0;
 
-  let paths = [];
-  for (let i = 0; i <= nounsCount; i++) {
-    paths.push({params: {tokenId: `${i}`}})
-  }
+  const paths = Array.from({length: (nounsCount)}, (v, k) => k)
+    .filter(p => p !== 404 && p !== 500)
+    .map((tokenId) => ({params: { tokenId: `${tokenId}` },}));
 
   return ({
     paths,

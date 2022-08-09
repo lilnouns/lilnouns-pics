@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2022-08-08
+
+### <!-- 04 -->Refactor
+
+- Improve home page and add a loading
+
 ## [1.0.0-alpha.6] - 2022-08-08
 
 ### <!-- 01 -->Features

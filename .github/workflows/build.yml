@@ -32,3 +32,6 @@ jobs:
         cache: 'yarn'
     - run: yarn
     - run: yarn build
+      env:
+        MAIN_PRIVATE_API_URL: ${{ secrets.MAIN_PRIVATE_API_URL }}
+        NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}

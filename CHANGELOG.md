@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.10] - 2022-08-09
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.6.4 to 18.6.5
+- Bump postcss from 8.4.14 to 8.4.16
+
 ## [1.0.0-alpha.9] - 2022-08-09
 
 ### <!-- 01 -->Features

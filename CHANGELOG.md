@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2022-08-09
+
+### <!-- 02 -->Bug Fixes
+
+- Temporary disable some of moods due to display issues
+
 ## [1.0.0-alpha.10] - 2022-08-09
 
 ### <!-- 08 -->Miscellaneous Tasks

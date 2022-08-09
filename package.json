@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-pics",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^3.14.1",
     "@types/node": "18.6.4",
-    "@types/react": "18.0.15",
+    "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.8",
     "eslint": "8.21.0",

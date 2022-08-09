@@ -19,6 +19,22 @@ const sizeOptions = [
   {name: '2048', value: 2048},
 ]
 
+const moodOptions = [
+  {name: 'Natural', value: ''},
+  {name: 'Aggravated', value: 'aggravated'},
+  {name: 'Angry', value: 'angry'},
+  {name: 'Asleep', value: 'asleep'},
+  {name: 'Crying', value: 'crying'},
+  {name: 'Glad', value: 'glad'},
+  {name: 'Glance Down', value: 'glance-down'},
+  {name: 'Glance Up', value: 'glance-up'},
+  {name: 'Happy', value: 'happy'},
+  {name: 'Sad', value: 'sad'},
+  {name: 'Sleepy', value: 'sleepy'},
+  {name: 'Sus', value: 'sus'},
+  {name: 'Wink', value: 'wink'},
+]
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
@@ -56,19 +72,20 @@ const Noun = ({tokenId}: { tokenId: string }) => {
   const [mime, setMime] = useState(mimeOptions[0])
   const [size, setSize] = useState(sizeOptions[0])
   const [back, setBack] = useState(true)
+  const [mood, setMood] = useState(moodOptions[0])
 
   useEffect(() => {
     fetchImage(tokenId)
   }, [tokenId])
 
-  const fetchImage = (tokenId: string, size?: number, mime?: string, back: boolean = true) => {
+  const fetchImage = (tokenId: string, size?: number, mime?: string, back: boolean = true, mood: string = '') => {
     setLoading(true)
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/nouns/${tokenId}/images`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({size, mime, back})
+      body: JSON.stringify({size, mime, back, mood})
     })
       .then((res) => res.json())
       .then((data) => {
@@ -147,9 +164,9 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                 >
                                   {({selected, active}) => (
                                     <>
-                        <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
-                          {option.name}
-                        </span>
+                                      <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                        {option.name}
+                                      </span>
 
                                       {selected ? (
                                         <span
@@ -158,8 +175,8 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                             'absolute inset-y-0 right-0 flex items-center pr-4'
                                           )}
                                         >
-                            <CheckIcon className="h-5 w-5" aria-hidden="true"/>
-                          </span>
+                                          <CheckIcon className="h-5 w-5" aria-hidden="true"/>
+                                        </span>
                                       ) : null}
                                     </>
                                   )}
@@ -207,10 +224,10 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                 >
                                   {({selected, active}) => (
                                     <>
-                                  <span
-                                    className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
-                                    {option.name}
-                                  </span>
+                                      <span
+                                        className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                        {option.name}
+                                      </span>
 
                                       {selected ? (
                                         <span
@@ -219,8 +236,8 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                             'absolute inset-y-0 right-0 flex items-center pr-4'
                                           )}
                                         >
-                            <CheckIcon className="h-5 w-5" aria-hidden="true"/>
-                          </span>
+                                          <CheckIcon className="h-5 w-5" aria-hidden="true"/>
+                                        </span>
                                       ) : null}
                                     </>
                                   )}
@@ -255,9 +272,69 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                     </Switch.Label>
                   </Switch.Group>
 
+                  <Listbox value={mood} onChange={setMood}>
+                    {({open}) => (
+                      <>
+                        <Listbox.Label className="block text-sm font-medium text-gray-700">Mood</Listbox.Label>
+                        <div className="mt-1 relative">
+                          <Listbox.Button
+                            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <span className="block truncate">{mood.name}</span>
+                            <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                          <SelectorIcon className="h-5 w-5 text-gray-400" aria-hidden="true"/>
+                        </span>
+                          </Listbox.Button>
+
+                          <Transition
+                            show={open}
+                            as={Fragment}
+                            leave="transition ease-in duration-100"
+                            leaveFrom="opacity-100"
+                            leaveTo="opacity-0"
+                          >
+                            <Listbox.Options
+                              className="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm">
+                              {moodOptions.map((option) => (
+                                <Listbox.Option
+                                  key={option.name}
+                                  className={({active}) =>
+                                    classNames(
+                                      active ? 'text-white bg-indigo-600' : 'text-gray-900',
+                                      'cursor-default select-none relative py-2 pl-3 pr-9'
+                                    )
+                                  }
+                                  value={option}
+                                >
+                                  {({selected, active}) => (
+                                    <>
+                                      <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                        {option.name}
+                                      </span>
+
+                                      {selected ? (
+                                        <span
+                                          className={classNames(
+                                            active ? 'text-white' : 'text-indigo-600',
+                                            'absolute inset-y-0 right-0 flex items-center pr-4'
+                                          )}
+                                        >
+                                          <CheckIcon className="h-5 w-5" aria-hidden="true"/>
+                                        </span>
+                                      ) : null}
+                                    </>
+                                  )}
+                                </Listbox.Option>
+                              ))}
+                            </Listbox.Options>
+                          </Transition>
+                        </div>
+                      </>
+                    )}
+                  </Listbox>
+
                   <button
                     disabled={isLoading}
-                    onClick={() => fetchImage(tokenId, size.value, mime.value, back)}
+                    onClick={() => fetchImage(tokenId, size.value, mime.value, back, mood.value)}
                     type="submit"
                     className="mt-2 w-full bg-zinc-200 border border-neutral-300 rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-neutral-800 opacity-50 hover:bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-zinc-500"
                   >

@@ -21,17 +21,17 @@ const sizeOptions = [
 
 const moodOptions = [
   {name: 'Natural', value: ''},
-  {name: 'Aggravated', value: 'aggravated'},
+  // {name: 'Aggravated', value: 'aggravated'},
   {name: 'Angry', value: 'angry'},
   {name: 'Asleep', value: 'asleep'},
-  {name: 'Crying', value: 'crying'},
+  // {name: 'Crying', value: 'crying'},
   {name: 'Glad', value: 'glad'},
-  {name: 'Glance Down', value: 'glance-down'},
+  // {name: 'Glance Down', value: 'glance-down'},
   {name: 'Glance Up', value: 'glance-up'},
   {name: 'Happy', value: 'happy'},
-  {name: 'Sad', value: 'sad'},
+  // {name: 'Sad', value: 'sad'},
   {name: 'Sleepy', value: 'sleepy'},
-  {name: 'Sus', value: 'sus'},
+  // {name: 'Sus', value: 'sus'},
   {name: 'Wink', value: 'wink'},
 ]
 

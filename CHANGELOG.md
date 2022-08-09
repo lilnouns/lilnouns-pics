@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0-alpha.7] - 2022-08-08
+## [1.0.0-alpha.8] - 2022-08-09
+
+### <!-- 07 -->Continuous Integrations
+
+- Add the missing env variables to the build workflow
+
+## [1.0.0-alpha.7] - 2022-08-09
 
 ### <!-- 04 -->Refactor
 

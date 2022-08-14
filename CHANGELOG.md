@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.12] - 2022-08-14
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 12.2.4 to 12.2.5
+- Bump @types/node from 18.6.5 to 18.7.2
+- Bump eslint-config-next from 12.2.4 to 12.2.5
+- Bump wrangler from 2.0.24 to 2.0.25
+
 ## [1.0.0-alpha.11] - 2022-08-09
 
 ### <!-- 02 -->Bug Fixes

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.13] - 2022-08-22
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Migrate package manager from `yarn` to `pnpm`
+
 ## [1.0.0-alpha.12] - 2022-08-14
 
 ### <!-- 08 -->Miscellaneous Tasks

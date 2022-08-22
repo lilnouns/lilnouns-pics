@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.14] - 2022-08-22
+
+### <!-- 07 -->Continuous Integrations
+
+- Add missing environmental variables to the build `workflow`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.7.2 to 18.7.9
+- Bump eslint from 8.21.0 to 8.22.0
+
 ## [1.0.0-alpha.13] - 2022-08-22
 
 ### <!-- 08 -->Miscellaneous Tasks

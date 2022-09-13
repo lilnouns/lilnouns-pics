@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
+    "prestart": "npm run export",
+    "start": "wrangler pages dev out",
     "lint": "next lint",
     "preexport": "npm run build",
-    "export": "next export",
-    "prestart": "npm run export",
-    "start": "wrangler pages dev out"
+    "export": "next export"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",

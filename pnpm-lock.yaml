@@ -13,6 +13,7 @@ specifiers:
   eslint: 8.22.0
   eslint-config-next: 12.3.0
   next: 12.3.0
+  next-seo: ^5.5.0
   next-sitemap: ^3.1.22
   postcss: ^8.4.16
   react: 18.2.0
@@ -28,6 +29,7 @@ dependencies:
   '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.1.8
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
   next: 12.3.0_biqbaboplfbrettd7655fr4n2y
+  next-seo: 5.5.0_c3hne4hwj64hb7tofigd3bvkji
   next-sitemap: 3.1.22_next@12.3.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -2268,6 +2270,18 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
     dev: true
+
+  /next-seo/5.5.0_c3hne4hwj64hb7tofigd3bvkji:
+    resolution: {integrity: sha512-5ouBHFtx8YrSDW44lj0qIEQ+oMcz6stgoITB+SqHUZbhgizoJsyLmq73gJ0lxtEKpcN8vG2QgRIJfdb8OAPChw==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      next: 12.3.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /next-sitemap/3.1.22_next@12.3.0:
     resolution: {integrity: sha512-aykbwYTNJ2GKSuxYpXgKK7m/a1Qao03ekUlsNLHvO8XuTTVZDAOe2hGcJtr2vQfXnLeZuSpNUs2IP6hCr4xVZA==}

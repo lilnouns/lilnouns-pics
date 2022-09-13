@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.16] - 2022-09-13
+
+### <!-- 04 -->Refactor
+
+- Add default seo config and information
+- Replace background switch group by listbox
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update `start` and `export` script over package json
+
 ## [1.0.0-alpha.15] - 2022-09-13
 
 ### <!-- 02 -->Bug Fixes

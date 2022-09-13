@@ -4,6 +4,7 @@ import Image from "next/image";
 import {CheckIcon, ChevronUpDownIcon} from '@heroicons/react/20/solid'
 import {Listbox, Switch, Transition} from "@headlessui/react";
 import Head from "next/head";
+import {NextSeo} from "next-seo";
 
 const mimeOptions = [
   {name: 'SVG', value: 'svg'},
@@ -97,9 +98,17 @@ const Noun = ({tokenId}: { tokenId: string }) => {
 
   return (
     <>
+      <NextSeo
+        title={`Lil Nouns Pics - Lil Noun #${tokenId}`}
+        description={`Download a Lil Noun #${tokenId} picture in various sizes and formats.`}
+      />
+
       <Head>
-        <title>Lil Nouns Pics</title>
-        <meta name="description" content="Select and download a Lil Nouns picture in various sizes and formats."/>
+        <title>{`Lil Nouns Pics - Lil Noun #${tokenId}`}</title>
+        <meta
+          name="description"
+          content={`Download a Lil Noun #${tokenId} picture in various sizes and formats.`}
+        />
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
@@ -164,7 +173,8 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                 >
                                   {({selected, active}) => (
                                     <>
-                                      <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                      <span
+                                        className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                         {option.name}
                                       </span>
 
@@ -285,7 +295,8 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                 >
                                   {({selected, active}) => (
                                     <>
-                                      <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                      <span
+                                        className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
                                         {option.name}
                                       </span>
 

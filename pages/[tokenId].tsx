@@ -36,6 +36,11 @@ const moodOptions = [
   {name: 'Wink', value: 'wink'},
 ]
 
+const backOptions = [
+  {name: 'Default', value: ''},
+  {name: 'Transparent', value: 'transparent'},
+]
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
@@ -72,14 +77,14 @@ const Noun = ({tokenId}: { tokenId: string }) => {
 
   const [mime, setMime] = useState(mimeOptions[0])
   const [size, setSize] = useState(sizeOptions[0])
-  const [back, setBack] = useState(true)
+  const [back, setBack] = useState(backOptions[0])
   const [mood, setMood] = useState(moodOptions[0])
 
   useEffect(() => {
     fetchImage(tokenId)
   }, [tokenId])
 
-  const fetchImage = (tokenId: string, size?: number, mime?: string, back: boolean = true, mood: string = '') => {
+  const fetchImage = (tokenId: string, size?: number, mime?: string, back?: string, mood: string = '') => {
     setLoading(true)
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/nouns/${tokenId}/images`, {
       method: 'POST',
@@ -321,27 +326,66 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                     )}
                   </Listbox>
 
-                  <Switch.Group as="div" className="mt-3 flex items-center">
-                    <Switch
-                      checked={back}
-                      onChange={setBack}
-                      className={classNames(
-                        back ? 'bg-indigo-600' : 'bg-gray-200',
-                        'relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
-                      )}
-                    >
-                  <span
-                    aria-hidden="true"
-                    className={classNames(
-                      back ? 'translate-x-5' : 'translate-x-0',
-                      'pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200'
+                  <Listbox value={back} onChange={setBack}>
+                    {({open}) => (
+                      <>
+                        <Listbox.Label className="mt-3 block text-sm font-medium text-gray-700">Back</Listbox.Label>
+                        <div className="mt-1 relative">
+                          <Listbox.Button
+                            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            <span className="block truncate">{back.name}</span>
+                            <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                          <ChevronUpDownIcon className="h-5 w-5 text-gray-400" aria-hidden="true"/>
+                        </span>
+                          </Listbox.Button>
+
+                          <Transition
+                            show={open}
+                            as={Fragment}
+                            leave="transition ease-in duration-100"
+                            leaveFrom="opacity-100"
+                            leaveTo="opacity-0"
+                          >
+                            <Listbox.Options
+                              className="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm">
+                              {backOptions.map((option) => (
+                                <Listbox.Option
+                                  key={option.name}
+                                  className={({active}) =>
+                                    classNames(
+                                      active ? 'text-white bg-indigo-600' : 'text-gray-900',
+                                      'cursor-default select-none relative py-2 pl-3 pr-9'
+                                    )
+                                  }
+                                  value={option}
+                                >
+                                  {({selected, active}) => (
+                                    <>
+                                      <span
+                                        className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
+                                        {option.name}
+                                      </span>
+
+                                      {selected ? (
+                                        <span
+                                          className={classNames(
+                                            active ? 'text-white' : 'text-indigo-600',
+                                            'absolute inset-y-0 right-0 flex items-center pr-4'
+                                          )}
+                                        >
+                                          <CheckIcon className="h-5 w-5" aria-hidden="true"/>
+                                        </span>
+                                      ) : null}
+                                    </>
+                                  )}
+                                </Listbox.Option>
+                              ))}
+                            </Listbox.Options>
+                          </Transition>
+                        </div>
+                      </>
                     )}
-                  />
-                    </Switch>
-                    <Switch.Label as="span" className="ml-3">
-                      <span className="text-sm font-medium text-gray-900">Background</span>
-                    </Switch.Label>
-                  </Switch.Group>
+                  </Listbox>
                 </div>
               </div>
 
@@ -349,7 +393,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
             <div className="p-3 w-full">
               <button
                 disabled={isLoading}
-                onClick={() => fetchImage(tokenId, size.value, mime.value, back, mood.value)}
+                onClick={() => fetchImage(tokenId, size.value, mime.value, back.value, mood.value)}
                 type="submit"
                 className="mt-2 w-full bg-zinc-200 border border-neutral-300 rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-neutral-800 opacity-50 hover:bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-zinc-500"
               >

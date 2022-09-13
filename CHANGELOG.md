@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.15] - 2022-09-13
+
+### <!-- 02 -->Bug Fixes
+
+- Migrate `heroicons` from `v1` to `v2`
+
+### <!-- 04 -->Refactor
+
+- Add basic sitemap configuration
+
+### <!-- 07 -->Continuous Integrations
+
+- Improve the `build` workflow and add cache
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.22.0 to 8.23.1
+- Bump @types/node from 18.7.9 to 18.7.17
+- Bump eslint-config-next from 12.2.5 to 12.3.0
+- Bump typescript from 4.7.4 to 4.8.3
+- Bump next from 12.2.5 to 12.3.0
+- Bump @types/react from 18.0.17 to 18.0.19
+- Bump @heroicons/react from 1.0.6 to 2.0.11
+- Remove `unoptimized` from experimental configs
+- Update start script over package json
+- Enable pre and post scripts runing by `pnpm`
+- Downgrade `eslint` from `8.23.1` to `8.22.0`
+
 ## [1.0.0-alpha.14] - 2022-08-22
 
 ### <!-- 07 -->Continuous Integrations

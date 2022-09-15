@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.18] - 2022-09-15
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Change `sitemapSize` from `5000` to `500`
+
 ## [1.0.0-alpha.17] - 2022-09-14
 
 ### <!-- 07 -->Continuous Integrations

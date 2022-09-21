@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2022-09-21
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 12.3.0 to 12.3.1
+- Bump next from 12.3.0 to 12.3.1
+
 ## [1.0.0-alpha.18] - 2022-09-15
 
 ### <!-- 08 -->Miscellaneous Tasks

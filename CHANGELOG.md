@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.20] - 2022-09-22
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Enable automatic install of peer dependencies
+- Update pnpm lockfile state
+
 ## [1.0.0-alpha.19] - 2022-09-21
 
 ### <!-- 08 -->Miscellaneous Tasks

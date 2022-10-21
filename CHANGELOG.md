@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.21] - 2022-10-13
+
+### <!-- 07 -->Continuous Integrations
+
+- Add `18.x` on `build` workflow `node-version`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.7.18 to 18.7.19
+- Bump @types/react from 18.0.20 to 18.0.21
+- Update pnpm lockfile state
+
 ## [1.0.0-alpha.20] - 2022-09-22
 
 ### <!-- 08 -->Miscellaneous Tasks

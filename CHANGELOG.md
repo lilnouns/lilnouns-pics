@@ -2,7 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0-alpha.21] - 2022-10-13
+## [1.0.0-alpha.22] - 2022-10-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.0.2 to 3.1.0
+- Bump actions/setup-node from 3.4.1 to 3.5.1
+- Bump actions/cache from 3.0.8 to 3.0.11
+- Bump pnpm/action-setup from 2.2.2 to 2.2.4
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump typescript from 4.8.3 to 4.8.4
+- Bump eslint from 8.23.1 to 8.25.0
+- Bump @types/node from 18.7.19 to 18.11.3
+- Update `pnpm` lockfile state
+
+## [1.0.0-alpha.21] - 2022-10-21
 
 ### <!-- 07 -->Continuous Integrations
 

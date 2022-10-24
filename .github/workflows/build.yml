@@ -41,7 +41,7 @@ jobs:
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
-          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - uses: actions/cache@v3.0.11
         name: Setup pnpm cache
@@ -56,6 +56,10 @@ jobs:
 
       - name: Build & export the app
         run: pnpm run export
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL  }}
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL  }}
+          MAIN_PRIVATE_API_URL: ${{ secrets.MAIN_PRIVATE_API_URL  }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

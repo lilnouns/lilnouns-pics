@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.23] - 2022-10-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Patch `set-output` on `build` workflow
+- Add missing environmental variables for `build` workflow
+
 ## [1.0.0-alpha.22] - 2022-10-24
 
 ### <!-- 07 -->Continuous Integrations

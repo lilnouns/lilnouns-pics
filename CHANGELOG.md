@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.25] - 2022-10-25
+
+### <!-- 07 -->Continuous Integrations
+
+- Add node version `19` to the `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react-dom from 18.0.6 to 18.0.7
+- Bump @types/node from 18.11.3 to 18.11.5
+
 ## [1.0.0-alpha.24] - 2022-10-25
 
 ### <!-- 01 -->Features

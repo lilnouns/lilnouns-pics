@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.26] - 2022-10-25
+
+### <!-- 02 -->Bug Fixes
+
+- Update copy right message
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update pnpm lockfile state
+
 ## [1.0.0-alpha.25] - 2022-10-25
 
 ### <!-- 07 -->Continuous Integrations

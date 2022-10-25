@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.24] - 2022-10-25
+
+### <!-- 01 -->Features
+
+- Improve index and token pages appearance
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.21 to 18.0.22
+- Bump eslint from 8.25.0 to 8.26.0
+
 ## [1.0.0-alpha.23] - 2022-10-24
 
 ### <!-- 07 -->Continuous Integrations

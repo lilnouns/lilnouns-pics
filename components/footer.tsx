@@ -78,7 +78,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">&copy; 2022 Lil Nouns. All rights reserved.</p>
+          <p className="text-center text-base text-gray-400">&copy; 2022 Lil Nouns. No rights reserved.</p>
         </div>
       </div>
     </footer>

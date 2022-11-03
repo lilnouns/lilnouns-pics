@@ -8,7 +8,7 @@ specifiers:
   '@tailwindcss/forms': ^0.5.2
   '@types/node': 18.11.5
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.7
+  '@types/react-dom': 18.0.8
   autoprefixer: ^10.4.8
   eslint: 8.26.0
   eslint-config-next: 12.3.1
@@ -38,7 +38,7 @@ devDependencies:
   '@cloudflare/workers-types': 3.14.1
   '@types/node': 18.11.5
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.7
+  '@types/react-dom': 18.0.8
   autoprefixer: 10.4.8_postcss@8.4.16
   eslint: 8.26.0
   eslint-config-next: 12.3.1_wyqvi574yv7oiwfeinomdzmc3m
@@ -494,8 +494,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.7:
-    resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
+  /@types/react-dom/18.0.8:
+    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
     dependencies:
       '@types/react': 18.0.24
     dev: true

@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2023-01-02
+
+### <!-- 05 -->Documentation
+
+- Add some status badges to the project readme
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.0.11 to 3.2.2 ([#114](https://github.com/orhun/git-cliff/issues/114))
+- Setup stale bot to closes abandoned issues
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.16 to 18.11.17 ([#105](https://github.com/orhun/git-cliff/issues/105))
+- Bump @types/react-dom from 18.0.9 to 18.0.10 ([#110](https://github.com/orhun/git-cliff/issues/110))
+- Bump next from 13.0.7 to 13.1.1 ([#111](https://github.com/orhun/git-cliff/issues/111))
+- Bump @types/node from 18.11.17 to 18.11.18 ([#113](https://github.com/orhun/git-cliff/issues/113))
+- Bump eslint-config-next from 13.0.7 to 13.1.1 ([#112](https://github.com/orhun/git-cliff/issues/112))
+- Add a link to the github repository to the header
+
 ## [1.0.0] - 2022-12-17
 
 ### <!-- 05 -->Documentation

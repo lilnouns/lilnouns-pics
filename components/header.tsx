@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Discord', href: 'https://discord.com/channels/954142017556979752/1006590012642558032' },
+  { name: 'GitHub', href: 'https://github.com/lilnouns/lilnouns-pics' },
 ]
 
 export default function Header() {

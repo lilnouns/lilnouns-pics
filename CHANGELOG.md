@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2023-01-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Add a new `release` workflow to create releases
+
 ## [1.0.1] - 2023-01-02
 
 ### <!-- 05 -->Documentation

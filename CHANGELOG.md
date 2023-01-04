@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2023-01-04
+
+### <!-- 07 -->Continuous Integrations
+
+- Improve `build` workflow by cache `pnpm` and skip concurrences
+- Skip running `pnpm` workflow on ci dependencies
+- Add missing environmental variables over `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint from 8.30.0 to 8.31.0 
+
 ## [1.0.3] - 2023-01-02
 
 ### <!-- 08 -->Miscellaneous Tasks

@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2023-01-14
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.5.1 to 3.6.0 
+- Bump actions/checkout from 3.1.0 to 3.3.0 
+- Bump actions/cache from 3.2.2 to 3.2.3 
+- Bump orhun/git-cliff-action from 2.0.1 to 2.0.3 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Replace exact versions instead of carrot
+- Update dependencies through `pnpm`
+- Change `save-prefix` from carrot to exact version
+- Bump next from 13.1.1 to 13.1.2 
+- Bump eslint-config-next from 13.1.1 to 13.1.2 
+
 ## [1.0.4] - 2023-01-04
 
 ### <!-- 07 -->Continuous Integrations

@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/workers-types': 4.20221111.1
-  '@headlessui/react': 1.6.6
+  '@headlessui/react': 1.7.7
   '@heroicons/react': 2.0.11
   '@tailwindcss/aspect-ratio': 0.4.0
   '@tailwindcss/forms': 0.5.2
@@ -24,7 +24,7 @@ specifiers:
   wrangler: 2.0.26
 
 dependencies:
-  '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
+  '@headlessui/react': 1.7.7_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.11_react@18.2.0
   '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.1.8
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
@@ -106,13 +106,14 @@ packages:
       - supports-color
     dev: true
 
-  /@headlessui/react/1.6.6_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-MFJtmj9Xh/hhBMhLccGbBoSk+sk61BlP6sJe4uQcVMtXZhCgGqd2GyIQzzmsdPdTEWGSF434CBi8mnhR6um46Q==}
+  /@headlessui/react/1.7.7_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-BqDOd/tB9u2tA0T3Z0fn18ktw+KbVwMnkxxsGPIH2hzssrQhKB5n/6StZOyvLYP/FsYtvuXfi9I0YowKPv2c1w==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16 || ^17 || ^18
       react-dom: ^16 || ^17 || ^18
     dependencies:
+      client-only: 0.0.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false

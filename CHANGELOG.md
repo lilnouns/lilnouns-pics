@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2023-01-15
+
+### <!-- 01 -->Features
+
+- Add `tailwind` class names obfuscation by `webpack`
+
+### <!-- 04 -->Refactor
+
+- Add missing `tw-` prefix for css classes
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-seo from 5.5.0 to 5.15.0 
+- Bump postcss from 8.4.16 to 8.4.21 
+- Bump tailwindcss from 3.1.8 to 3.2.4 
+- Add `mangle-css-class-webpack-plugin` to dependencies
+- Update `pnpm` lockfile state
+
 ## [1.0.6] - 2023-01-15
 
 ### <!-- 07 -->Continuous Integrations

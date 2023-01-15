@@ -12,6 +12,8 @@ specifiers:
   autoprefixer: 10.4.13
   eslint: 8.32.0
   eslint-config-next: 13.1.2
+  incstr: 1.2.3
+  mangle-css-class-webpack-plugin: 5.0.9
   next: 13.1.2
   next-seo: 5.15.0
   next-sitemap: 3.1.45
@@ -42,6 +44,8 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   eslint: 8.32.0
   eslint-config-next: 13.1.2_7uibuqfxkfaozanbtbziikiqje
+  incstr: 1.2.3
+  mangle-css-class-webpack-plugin: 5.0.9
   postcss: 8.4.21
   serve: 14.1.2
   tailwindcss: 3.1.8_postcss@8.4.21
@@ -2074,6 +2078,10 @@ packages:
     engines: {node: '>=0.8.19'}
     dev: true
 
+  /incstr/1.2.3:
+    resolution: {integrity: sha512-ySi29Lzdc3QnB1LzZgRf5kl59m5tPucNagrAyJJ9rWz4+Pa6IxAHSNyUHYvEvaj6QPwWAY2/thi3Rxt45qi3HQ==}
+    dev: true
+
   /inflight/1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
@@ -2383,6 +2391,10 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /mangle-css-class-webpack-plugin/5.0.9:
+    resolution: {integrity: sha512-34XVgfBC7suJSnJOYGFJcrxPwPADplq53aEi7NXok0K6WJsdKYaF74AinKFBvETInc2UayqZBAVmX9x7jv1Ojw==}
     dev: true
 
   /merge-stream/2.0.0:

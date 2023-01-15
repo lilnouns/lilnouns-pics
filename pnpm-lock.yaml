@@ -4,7 +4,7 @@ specifiers:
   '@cloudflare/workers-types': 4.20221111.1
   '@headlessui/react': 1.6.6
   '@heroicons/react': 2.0.11
-  '@tailwindcss/aspect-ratio': 0.4.0
+  '@tailwindcss/aspect-ratio': 0.4.2
   '@tailwindcss/forms': 0.5.2
   '@types/node': 18.11.18
   '@types/react': 18.0.26
@@ -26,7 +26,7 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.11_react@18.2.0
-  '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.1.8
+  '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.1.8
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
   next: 13.1.2_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.5.0_7jnwqgtpcnwg4nzft4b6xlzlfi
@@ -487,8 +487,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@tailwindcss/aspect-ratio/0.4.0_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-WJu0I4PpqNPuutpaA9zDUq2JXR+lorZ7PbLcKNLmb6GL9/HLfC7w3CRsMhJF4BbYd/lkY6CfXOvkYpuGnZfkpQ==}
+  /@tailwindcss/aspect-ratio/0.4.2_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:

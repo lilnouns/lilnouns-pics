@@ -13,7 +13,7 @@ specifiers:
   eslint: 8.32.0
   eslint-config-next: 13.1.2
   next: 13.1.2
-  next-seo: 5.5.0
+  next-seo: 5.15.0
   next-sitemap: 3.1.45
   postcss: 8.4.16
   react: 18.2.0
@@ -29,7 +29,7 @@ dependencies:
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.1.8
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.1.8
   next: 13.1.2_biqbaboplfbrettd7655fr4n2y
-  next-seo: 5.5.0_7jnwqgtpcnwg4nzft4b6xlzlfi
+  next-seo: 5.15.0_7jnwqgtpcnwg4nzft4b6xlzlfi
   next-sitemap: 3.1.45_qzmmcn6byxg2j2hy7c3csxpwzm
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -2527,8 +2527,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /next-seo/5.5.0_7jnwqgtpcnwg4nzft4b6xlzlfi:
-    resolution: {integrity: sha512-5ouBHFtx8YrSDW44lj0qIEQ+oMcz6stgoITB+SqHUZbhgizoJsyLmq73gJ0lxtEKpcN8vG2QgRIJfdb8OAPChw==}
+  /next-seo/5.15.0_7jnwqgtpcnwg4nzft4b6xlzlfi:
+    resolution: {integrity: sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'

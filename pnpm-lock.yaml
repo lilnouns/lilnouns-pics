@@ -21,7 +21,7 @@ specifiers:
   serve: 14.0.1
   tailwindcss: 3.1.8
   typescript: 4.9.4
-  wrangler: 2.0.26
+  wrangler: 2.7.1
 
 dependencies:
   '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
@@ -46,7 +46,7 @@ devDependencies:
   serve: 14.0.1
   tailwindcss: 3.1.8_postcss@8.4.16
   typescript: 4.9.4
-  wrangler: 2.0.26
+  wrangler: 2.7.1
 
 packages:
 
@@ -3580,14 +3580,17 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /wrangler/2.0.26:
-    resolution: {integrity: sha512-r0uuk8Iu0iDmADG5l2DuN1++bis8giGSqjvXroiltd6jXd1xHgLhiAOowLpDK48CM9e6AYNVZ/0QF3XGCRUq/w==}
-    engines: {node: '>=16.7.0'}
+  /wrangler/2.7.1:
+    resolution: {integrity: sha512-SKoe+UTOCX0J+RfEDE6MEdnNy1lDSnB1BfpAEblgvDHjmEunPFu0w6GxcyOYAl/fTl3/VjXZO3p+Ybm9zenzWg==}
+    engines: {node: '>=16.13.0'}
     hasBin: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.2.0
       '@esbuild-plugins/node-globals-polyfill': 0.1.1_esbuild@0.14.51
       '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.14.51
+      '@miniflare/core': 2.11.0
+      '@miniflare/d1': 2.11.0
+      '@miniflare/durable-objects': 2.11.0
       blake3-wasm: 2.1.5
       chokidar: 3.5.3
       esbuild: 0.14.51

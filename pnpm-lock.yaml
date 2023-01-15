@@ -14,7 +14,7 @@ specifiers:
   eslint-config-next: 13.1.2
   next: 13.1.2
   next-seo: 5.5.0
-  next-sitemap: 3.1.22
+  next-sitemap: 3.1.45
   postcss: 8.4.16
   react: 18.2.0
   react-dom: 18.2.0
@@ -30,7 +30,7 @@ dependencies:
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
   next: 13.1.2_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.5.0_7jnwqgtpcnwg4nzft4b6xlzlfi
-  next-sitemap: 3.1.22_qzmmcn6byxg2j2hy7c3csxpwzm
+  next-sitemap: 3.1.45_qzmmcn6byxg2j2hy7c3csxpwzm
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -2538,8 +2538,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next-sitemap/3.1.22_qzmmcn6byxg2j2hy7c3csxpwzm:
-    resolution: {integrity: sha512-aykbwYTNJ2GKSuxYpXgKK7m/a1Qao03ekUlsNLHvO8XuTTVZDAOe2hGcJtr2vQfXnLeZuSpNUs2IP6hCr4xVZA==}
+  /next-sitemap/3.1.45_qzmmcn6byxg2j2hy7c3csxpwzm:
+    resolution: {integrity: sha512-8vyvWC8KT8RIEUL9Vfiae9yGuIIiJ1IpepzbFtwZx43BaKsoi/Zk9OlmPKuQouVY726xwN7uLZPtgl2l2U+9Ug==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:

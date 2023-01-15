@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.6] - 2023-01-15
+
+### <!-- 07 -->Continuous Integrations
+
+- Change `open-pull-requests-limi` from 10 to 20
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Specifiy node version of cloudflare pages
+- Bump wrangler from 2.0.26 to 2.7.1 
+- Bump autoprefixer from 10.4.8 to 10.4.13 
+- Bump @tailwindcss/aspect-ratio from 0.4.0 to 0.4.2 
+- Bump serve from 14.0.1 to 14.1.2 
+- Bump next-sitemap from 3.1.22 to 3.1.45 
+- Bump @headlessui/react from 1.6.6 to 1.7.7 
+- Bump eslint from 8.31.0 to 8.32.0 
+- Bump @heroicons/react from 2.0.11 to 2.0.13 
+- Bump @tailwindcss/forms from 0.5.2 to 0.5.3 
+
 ## [1.0.5] - 2023-01-14
 
 ### <!-- 07 -->Continuous Integrations

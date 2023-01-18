@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2023-01-18
+
+### <!-- 02 -->Bug Fixes
+
+- Improve regex rules for `mangle-css-class-webpack-plugin`
+
+### <!-- 04 -->Refactor
+
+- Replace `classNames` function by `clsx`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `clsx` to dependencies
+- Bump wrangler from 2.7.1 to 2.8.0 
+
 ## [1.1.0] - 2023-01-15
 
 ### <!-- 01 -->Features

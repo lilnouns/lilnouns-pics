@@ -6,8 +6,8 @@ import {Listbox, Switch, Transition} from "@headlessui/react";
 import Head from "next/head";
 import {NextSeo} from "next-seo";
 import Content from "../components/content";
-import Footer from "../components/footer";
 import Header from "../components/header";
+import clsx from "clsx";
 
 const mimeOptions = [
   {name: 'SVG', value: 'svg'},
@@ -43,10 +43,6 @@ const backOptions = [
   {name: 'Default', value: ''},
   {name: 'Transparent', value: 'transparent'},
 ]
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const response = await fetch(`${process.env.MAIN_PRIVATE_API_URL}/nouns`);
@@ -223,7 +219,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                     <Listbox.Option
                                       key={option.name}
                                       className={({active}) =>
-                                        classNames(
+                                        clsx(
                                           active ? 'tw-text-white tw-bg-indigo-600' : 'tw-text-gray-900',
                                           'tw-cursor-default stw-elect-none tw-relative tw-py-2 tw-pl-3 tw-pr-9'
                                         )
@@ -233,13 +229,13 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                       {({selected, active}) => (
                                         <>
                                           <span
-                                            className={classNames(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
+                                            className={clsx(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
                                             {option.name}
                                           </span>
 
                                           {selected ? (
                                             <span
-                                              className={classNames(
+                                              className={clsx(
                                                 active ? 'tw-text-white' : 'tw-text-indigo-600',
                                                 'tw-absolute tw-inset-y-0 tw-right-0 tw-flex tw-items-center tw-pr-4'
                                               )}
@@ -284,7 +280,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                     <Listbox.Option
                                       key={option.name}
                                       className={({active}) =>
-                                        classNames(
+                                        clsx(
                                           active ? 'tw-text-white tw-bg-indigo-600' : 'tw-text-gray-900',
                                           'tw-cursor-default tw-select-none tw-relative tw-py-2 tw-pl-3 tw-pr-9'
                                         )
@@ -294,13 +290,13 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                       {({selected, active}) => (
                                         <>
                                           <span
-                                            className={classNames(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
+                                            className={clsx(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
                                             {option.name}
                                           </span>
 
                                           {selected ? (
                                             <span
-                                              className={classNames(
+                                              className={clsx(
                                                 active ? 'tw-text-white' : 'tw-text-indigo-600',
                                                 'tw-absolute tw-inset-y-0 tw-right-0 tw-flex tw-items-center tw-pr-4'
                                               )}
@@ -345,7 +341,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                     <Listbox.Option
                                       key={option.name}
                                       className={({active}) =>
-                                        classNames(
+                                        clsx(
                                           active ? 'tw-text-white tw-bg-indigo-600' : 'tw-text-gray-900',
                                           'tw-cursor-default tw-select-none tw-relative tw-py-2 tw-pl-3 tw-pr-9'
                                         )
@@ -355,13 +351,13 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                       {({selected, active}) => (
                                         <>
                                           <span
-                                            className={classNames(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
+                                            className={clsx(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
                                             {option.name}
                                           </span>
 
                                           {selected ? (
                                             <span
-                                              className={classNames(
+                                              className={clsx(
                                                 active ? 'tw-text-white' : 'tw-text-indigo-600',
                                                 'tw-absolute tw-inset-y-0 tw-right-0 tw-flex tw-items-center tw-pr-4'
                                               )}
@@ -406,7 +402,7 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                     <Listbox.Option
                                       key={option.name}
                                       className={({active}) =>
-                                        classNames(
+                                        clsx(
                                           active ? 'tw-text-white tw-bg-indigo-600' : 'tw-text-gray-900',
                                           'tw-cursor-default tw-select-none tw-relative tw-py-2 tw-pl-3 tw-pr-9'
                                         )
@@ -416,13 +412,13 @@ const Noun = ({tokenId}: { tokenId: string }) => {
                                       {({selected, active}) => (
                                         <>
                                           <span
-                                            className={classNames(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
+                                            className={clsx(selected ? 'tw-font-semibold' : 'tw-font-normal', 'tw-block tw-truncate')}>
                                             {option.name}
                                           </span>
 
                                           {selected ? (
                                             <span
-                                              className={classNames(
+                                              className={clsx(
                                                 active ? 'tw-text-white' : 'tw-text-indigo-600',
                                                 'tw-absolute tw-inset-y-0 tw-right-0 tw-flex tw-items-center tw-pr-4'
                                               )}

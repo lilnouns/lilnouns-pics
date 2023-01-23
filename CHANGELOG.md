@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] - 2023-01-23
+
+### <!-- 05 -->Documentation
+
+- Add basic guidelines to contributing to the repository
+- Update twitter badge due to depreciation 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 3.1.45 to 3.1.47 
+- Bump next from 13.1.3 to 13.1.4 
+- Bump eslint-config-next from 13.1.3 to 13.1.4 
+
 ## [1.1.2] - 2023-01-22
 
 ### <!-- 05 -->Documentation

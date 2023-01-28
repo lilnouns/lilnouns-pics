@@ -35,7 +35,7 @@
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.0.9",
     "postcss": "8.4.21",
-    "serve": "14.1.2",
+    "serve": "14.2.0",
     "tailwindcss": "3.2.4",
     "typescript": "4.9.4",
     "wrangler": "2.8.1"

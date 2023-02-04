@@ -2,11 +2,11 @@ import React, {Fragment, useEffect, useState} from "react";
 import {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from "next";
 import Image from "next/image";
 import {CheckIcon, ChevronUpDownIcon} from '@heroicons/react/20/solid'
-import {Listbox, Switch, Transition} from "@headlessui/react";
+import {Listbox, Transition} from "@headlessui/react";
 import Head from "next/head";
 import {NextSeo} from "next-seo";
-import Content from "../components/content";
-import Header from "../components/header";
+import Content from "@/components/content";
+import Header from "@/components/header";
 import clsx from "clsx";
 
 const mimeOptions = [

@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2023-02-04
+
+### <!-- 01 -->Features
+
+- Configure `@` as import alias path
+
+### <!-- 04 -->Refactor
+
+- Replace `@` as import alias for relative paths
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wrangler from 2.8.0 to 2.8.1 
+- Bump next from 13.1.4 to 13.1.5 
+- Bump eslint-config-next from 13.1.4 to 13.1.5 
+- Bump @cloudflare/workers-types from 4.20221111.1 to 4.20230115.0 
+- Bump @heroicons/react from 2.0.13 to 2.0.14 
+- Bump serve from 14.1.2 to 14.2.0 
+- Bump @headlessui/react from 1.7.7 to 1.7.8 
+- Bump typescript from 4.9.4 to 4.9.5 
+- Bump wrangler from 2.8.1 to 2.9.0 
+
 ## [1.1.3] - 2023-01-23
 
 ### <!-- 05 -->Documentation

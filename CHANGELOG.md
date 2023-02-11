@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1] - 2023-02-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.3 to 3.2.4 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 3.1.47 to 3.1.48 
+- Bump eslint from 8.32.0 to 8.33.0 
+- Bump @headlessui/react from 1.7.8 to 1.7.9 
+- Bump next from 13.1.5 to 13.1.6 
+- Bump eslint-config-next from 13.1.5 to 13.1.6 
+
 ## [1.2.0] - 2023-02-04
 
 ### <!-- 01 -->Features

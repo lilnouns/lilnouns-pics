@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-pics",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,14 +13,14 @@
     "export": "next export"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.8",
+    "@headlessui/react": "1.7.9",
     "@heroicons/react": "2.0.14",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/forms": "0.5.3",
     "clsx": "1.2.1",
-    "next": "13.1.5",
+    "next": "13.1.6",
     "next-seo": "5.15.0",
-    "next-sitemap": "3.1.47",
+    "next-sitemap": "3.1.48",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -30,8 +30,8 @@
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "autoprefixer": "10.4.13",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.5",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.0.9",
     "postcss": "8.4.21",

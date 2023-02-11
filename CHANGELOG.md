@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2] - 2023-02-11
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.3 to 2.0.5 
+- Bump actions/cache from 3.2.4 to 3.2.5
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 18.11.18 to 18.11.19 
+- Bump @headlessui/react from 1.7.9 to 1.7.10
+- Bump wrangler from 2.9.0 to 2.9.1
+- Bump tailwindcss from 3.2.4 to 3.2.6
+- Bump eslint from 8.33.0 to 8.34.0 
+- Bump @heroicons/react from 2.0.14 to 2.0.15 
+- Bump next-sitemap from 3.1.48 to 3.1.52 
+- Bump @types/node from 18.11.19 to 18.13.0 
+
 ## [1.2.1] - 2023-02-11
 
 ### <!-- 07 -->Continuous Integrations

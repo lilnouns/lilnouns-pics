@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.3] - 2023-02-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.5 to 3.2.6 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @cloudflare/workers-types from 4.20230115.0 to 4.20230214.0 
+- Bump @types/react from 18.0.27 to 18.0.28 
+- Bump @types/node from 18.13.0 to 18.14.0 
+- Bump wrangler from 2.9.1 to 2.10.0 
+- Bump @headlessui/react from 1.7.10 to 1.7.11 
+- Bump tailwindcss from 3.2.6 to 3.2.7 
+- Bump @heroicons/react from 2.0.15 to 2.0.16 
+- Bump @types/node from 18.14.0 to 18.14.1 
+- Bump eslint-config-next from 13.1.6 to 13.2.1 
+- Bump @types/react-dom from 18.0.10 to 18.0.11 
+- Bump next from 13.1.6 to 13.2.1 
+- Bump wrangler from 2.9.1 to 2.11.0 
+- Bump @cloudflare/workers-types from 4.20230115.0 to 4.20230221.0 
+
 ## [1.2.2] - 2023-02-11
 
 ### <!-- 07 -->Continuous Integrations

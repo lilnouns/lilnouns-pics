@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@cloudflare/workers-types': 4.20230214.0
-  '@headlessui/react': 1.7.10
+  '@cloudflare/workers-types': 4.20230115.0
+  '@headlessui/react': 1.7.11
   '@heroicons/react': 2.0.15
   '@tailwindcss/aspect-ratio': 0.4.2
   '@tailwindcss/forms': 0.5.3
@@ -27,7 +27,7 @@ specifiers:
   wrangler: 2.9.1
 
 dependencies:
-  '@headlessui/react': 1.7.10_biqbaboplfbrettd7655fr4n2y
+  '@headlessui/react': 1.7.11_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.15_react@18.2.0
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.6
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.6
@@ -69,8 +69,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types/4.20230214.0:
-    resolution: {integrity: sha512-PfpzIKjMA1P0HLtzZVKp/V4/rAiSkgIVwGKbQleTmj7y5O62NbWP9gAxzOeQ4LpUc8UL17KRF2rXTgNKP2HNFw==}
+  /@cloudflare/workers-types/4.20230115.0:
+    resolution: {integrity: sha512-GPJEiO8AFN+jUpA+DHJ1qdVmk4s/hq8JYKjOV/+U7avGquQbVnj905+Kg6uAEfrq16muwmRKl+XJGqsvlBlDNg==}
     dev: true
 
   /@corex/deepmerge/4.0.37:
@@ -310,8 +310,8 @@ packages:
       - supports-color
     dev: true
 
-  /@headlessui/react/1.7.10_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-1m66h/5eayTEZVT2PI13/2PG3EVC7a9XalmUtVSC8X76pcyKYMuyX1XAL2RUtCr8WhoMa/KrDEyoeU5v+kSQOw==}
+  /@headlessui/react/1.7.11_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-EaDbVgcyiylhtskZZf4Qb/JiiByY7cYbd0qgZ9xm2pm2X7hKojG0P4TaQYKgPOV3vojPhd/pZyQh3nmRkkcSyw==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16 || ^17 || ^18

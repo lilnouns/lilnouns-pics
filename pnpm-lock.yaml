@@ -22,15 +22,15 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   serve: 14.2.0
-  tailwindcss: 3.2.6
+  tailwindcss: 3.2.7
   typescript: 4.9.5
   wrangler: 2.10.0
 
 dependencies:
   '@headlessui/react': 1.7.11_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.15_react@18.2.0
-  '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.6
-  '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.6
+  '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.7
+  '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.7
   clsx: 1.2.1
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.15.0_3vryta7zmbcsw4rrqf4axjqggm
@@ -50,7 +50,7 @@ devDependencies:
   mangle-css-class-webpack-plugin: 5.0.9
   postcss: 8.4.21
   serve: 14.2.0
-  tailwindcss: 3.2.6_postcss@8.4.21
+  tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
   wrangler: 2.10.0
 
@@ -692,21 +692,21 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@tailwindcss/aspect-ratio/0.4.2_tailwindcss@3.2.6:
+  /@tailwindcss/aspect-ratio/0.4.2_tailwindcss@3.2.7:
     resolution: {integrity: sha512-8QPrypskfBa7QIMuKHg2TA7BqES6vhBrDLOv8Unb6FcFyd3TjKbc6lcmb9UPQHxfl24sXoJ41ux/H7qQQvfaSQ==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 3.2.6_postcss@8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
     dev: false
 
-  /@tailwindcss/forms/0.5.3_tailwindcss@3.2.6:
+  /@tailwindcss/forms/0.5.3_tailwindcss@3.2.7:
     resolution: {integrity: sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.2.6_postcss@8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
     dev: false
 
   /@types/better-sqlite3/7.6.3:
@@ -3395,8 +3395,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /tailwindcss/3.2.6_postcss@8.4.21:
-    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
+  /tailwindcss/3.2.7_postcss@8.4.21:
+    resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:

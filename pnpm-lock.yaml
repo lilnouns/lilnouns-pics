@@ -17,7 +17,7 @@ specifiers:
   mangle-css-class-webpack-plugin: 5.0.9
   next: 13.2.1
   next-seo: 5.15.0
-  next-sitemap: 3.1.52
+  next-sitemap: 3.1.55
   postcss: 8.4.21
   react: 18.2.0
   react-dom: 18.2.0
@@ -34,7 +34,7 @@ dependencies:
   clsx: 1.2.1
   next: 13.2.1_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.15.0_qgtcjgzkkjtbiyvnx7d32fl5vu
-  next-sitemap: 3.1.52_w72blvo532ghymzwxfaavzsw7a
+  next-sitemap: 3.1.55_w72blvo532ghymzwxfaavzsw7a
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -2578,8 +2578,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next-sitemap/3.1.52_w72blvo532ghymzwxfaavzsw7a:
-    resolution: {integrity: sha512-tY469i4QRV1PwM9BoL+HdKYBCJ83IQl3PmUNapG/Hxp0MIYIw1hINU8E+Edf5Kr8vHXfVzPqDoul/Abu2P0vkw==}
+  /next-sitemap/3.1.55_w72blvo532ghymzwxfaavzsw7a:
+    resolution: {integrity: sha512-ZjkRfkqoSLbU+e8W9TWWe0zfOGNA47lpvm35kNcUCmj73gpLX2PIn51gwHT/B6bgGVAFYY0OXixJDrxIIwcEHw==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:

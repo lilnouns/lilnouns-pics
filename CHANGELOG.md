@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.5] - 2023-03-29
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.6 to 3.3.1 
+- Bump actions/checkout from 3.3.0 to 3.5.0 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @headlessui/react from 1.7.12 to 1.7.13 
+- Bump autoprefixer from 10.4.13 to 10.4.14 
+- Bump next from 13.2.3 to 13.2.4 
+- Bump eslint-config-next from 13.2.3 to 13.2.4 
+- Bump typescript from 4.9.5 to 5.0.2 
+
 ## [1.2.4] - 2023-03-02
 
 ### <!-- 08 -->Miscellaneous Tasks

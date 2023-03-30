@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.6] - 2023-03-30
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wrangler from 2.11.1 to 2.13.0 
+- Bump @types/node from 18.14.2 to 18.15.11 
+- Bump next-sitemap from 3.1.54 to 4.0.6 
+- Bump @cloudflare/workers-types from 4.20230228.0 to 4.20230321.0 
+- Bump eslint from 8.35.0 to 8.37.0 
+- Bump @types/react from 18.0.28 to 18.0.31 
+
 ## [1.2.5] - 2023-03-29
 
 ### <!-- 07 -->Continuous Integrations

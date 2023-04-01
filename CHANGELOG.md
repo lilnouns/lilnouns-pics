@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.7] - 2023-04-01
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @heroicons/react from 2.0.16 to 2.0.17 
+- Bump typescript from 5.0.2 to 5.0.3 
+- Bump tailwindcss from 3.2.7 to 3.3.1 
+
 ## [1.2.6] - 2023-03-30
 
 ### <!-- 08 -->Miscellaneous Tasks

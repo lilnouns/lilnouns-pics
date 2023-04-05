@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@cloudflare/workers-types': 4.20230321.0
+  '@cloudflare/workers-types': 4.20230404.0
   '@headlessui/react': 1.7.13
   '@heroicons/react': 2.0.17
   '@tailwindcss/aspect-ratio': 0.4.2
@@ -39,7 +39,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@cloudflare/workers-types': 4.20230321.0
+  '@cloudflare/workers-types': 4.20230404.0
   '@types/node': 18.15.11
   '@types/react': 18.0.33
   '@types/react-dom': 18.0.11
@@ -69,8 +69,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types/4.20230321.0:
-    resolution: {integrity: sha512-zyRFz9AUS0tbg3/kJ+3zxvp9fl/O9yOJlChih/o86hhOqRMcZVbWefYAvFPidRvYUHM5YTG1wjU1bF9FFckRVg==}
+  /@cloudflare/workers-types/4.20230404.0:
+    resolution: {integrity: sha512-fG3oaJX1icfsGV74nhx1+AC6opvZsGqnpx6FvrcVqQaBmCNkjKNqDRFrpasXWFiOIvysBXHKQAzsAJkBZgnM+A==}
     dev: true
 
   /@corex/deepmerge/4.0.37:

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.9] - 2023-04-08
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Improve mangling class names on production
+
 ## [1.2.8] - 2023-04-08
 
 ### <!-- 08 -->Miscellaneous Tasks

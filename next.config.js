@@ -13,32 +13,34 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  webpack: (config, {dev, isServer}) => {
+  webpack: (config, { dev, isServer }) => {
 
     if (!dev) {
-      const MangleCssClassPlugin = require('mangle-css-class-webpack-plugin');
-      config.plugins.push(new MangleCssClassPlugin({
-        classNameRegExp: '((hover|focus|xs|md|sm|lg|xl)[\\\\]*:)*-?tw-[a-z_-][a-zA-Z0-9_-]*',
-        ignorePrefixRegExp: '((hover|focus|xs|md|sm|lg|xl)[\\\\]*:)*',
-        log: true,
-        classGenerator: (original, opts, context) => {
-          if (classNames[original]) {
-            return classNames[original];
-          }
+      const MangleCssClassPlugin = require('mangle-css-class-webpack-plugin')
+      config.plugins.push(
+        new MangleCssClassPlugin({
+          classNameRegExp:
+            '(([a-zA-Z-:]*)[\\\\\\\\]*:)*([\\\\\\\\]*!)?-?tw-[a-zA-Z-]([a-zA-Z0-9-]*([\\\\\\\\]*(\\%|\\#|\\.|\\[|\\]|\\/))*)*',
+          log: process.env.NODE_ENV === 'development',
+          classGenerator: (original, opts, context) => {
+            if (classNames[original]) {
+              return classNames[original]
+            }
 
-          let nextId;
+            let nextId
 
-          do {
-            // Class name cannot start with a number.
-            nextId = generateClassName();
-          } while (/^[0-9_-]/.test(nextId));
+            do {
+              // Class name cannot start with a number.
+              nextId = generateClassName()
+            } while (/^[0-9_-]/.test(nextId))
 
-          return (classNames[original] = nextId);
-        }
-      }));
+            return (classNames[original] = nextId)
+          },
+        }),
+      )
     }
 
-    return config;
+    return config
   },
 }
 

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.8] - 2023-04-08
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.0.31 to 18.0.33 
+- Bump next-seo from 5.15.0 to 6.0.0 
+- Bump wrangler from 2.13.0 to 2.14.0 
+- Bump @cloudflare/workers-types from 4.20230321.0 to 4.20230404.0 
+- Bump eslint-config-next from 13.2.4 to 13.3.0 
+- Bump next from 13.2.4 to 13.3.0 
+- Bump typescript from 5.0.3 to 5.0.4 
+
 ## [1.2.7] - 2023-04-01
 
 ### <!-- 08 -->Miscellaneous Tasks

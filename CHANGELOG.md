@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.10] - 2023-04-20
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.0 to 3.5.1 
+- Bump actions/checkout from 3.5.1 to 3.5.2 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next-sitemap from 4.0.6 to 4.0.7 
+- Bump wrangler from 2.14.0 to 2.15.0 
+- Bump eslint from 8.37.0 to 8.38.0 
+- Bump @headlessui/react from 1.7.13 to 1.7.14 
+- Bump @types/react from 18.0.33 to 18.0.35 
+- Bump wrangler from 2.15.0 to 2.15.1 
+- Bump @types/react from 18.0.35 to 18.0.37 
+- Bump postcss from 8.4.21 to 8.4.22 
+- Bump wrangler from 2.15.1 to 2.16.0 
+- Bump postcss from 8.4.22 to 8.4.23 
+
 ## [1.2.9] - 2023-04-08
 
 ### <!-- 08 -->Miscellaneous Tasks

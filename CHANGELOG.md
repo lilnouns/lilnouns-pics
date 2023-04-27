@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.12] - 2023-04-27
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump `pnpm` version from `^7` to `^8` on `build` workflow
+
 ## [1.2.11] - 2023-04-26
 
 ### <!-- 05 -->Documentation

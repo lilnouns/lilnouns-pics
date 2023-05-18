@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.15] - 2023-05-18
+
+### <!-- 07 -->Continuous Integrations
+
+- Add node version 20 on `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.1.0 to 20.1.1 
+- Bump wrangler from 2.19.0 to 2.20.0 
+- Bump @heroicons/react from 2.0.17 to 2.0.18 
+- Bump @types/node from 20.1.1 to 20.1.2 
+- Bump @types/node from 20.1.2 to 20.1.3 
+- Bump @cloudflare/workers-types from 4.20230419.0 to 4.20230511.0 
+- Bump eslint-config-next from 13.4.1 to 13.4.2 
+- Bump next from 13.4.1 to 13.4.2 
+- Bump @types/node from 20.1.3 to 20.1.4 
+- Bump @types/node from 20.1.4 to 20.1.7 
+- Bump wrangler from 2.20.0 to 3.0.0 
+
 ## [1.2.13] - 2023-05-07
 
 ### <!-- 07 -->Continuous Integrations

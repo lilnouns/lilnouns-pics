@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.18] - 2023-06-10
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/react from 18.2.8 to 18.2.9 
+- Update `pnpm` lockfile state
+
 ## [1.2.17] - 2023-06-10
 
 ### <!-- 08 -->Miscellaneous Tasks

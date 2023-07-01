@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.19] - 2023-07-01
+
+### <!-- 05 -->Documentation
+
+- Add funding to the packge configs
+- Add crypto donate badge to the project readme
+- Set sponsorships configuration for github
+
+### <!-- 07 -->Continuous Integrations
+
+- Switch `package-ecosystem` from `npm` to `pnpm` for Dependabot
+- Change `package-ecosystem` back to `npm` on Dependabot configs
+- Add write permission to contents in GitHub release.
+- Update Node.js versions in workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update `pnpm` lockfile state
+
 ## [1.2.18] - 2023-06-10
 
 ### <!-- 08 -->Miscellaneous Tasks

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.23] - 2023-10-30
+
+### Miscellaneous Tasks
+
+- Update build command in Github Actions workflow
+
 ## [1.2.22] - 2023-10-30
 
 ### Miscellaneous Tasks

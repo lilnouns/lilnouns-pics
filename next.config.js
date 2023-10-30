@@ -14,6 +14,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    webpackBuildWorker: true
+  },
   webpack: (config, { dev, isServer }) => {
 
     if (!dev) {

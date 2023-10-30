@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.24] - 2023-10-30
+
+### Miscellaneous Tasks
+
+- Update Node version in `.nvmrc`
+
 ## [1.2.23] - 2023-10-30
 
 ### Miscellaneous Tasks

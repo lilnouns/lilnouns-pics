@@ -8,10 +8,14 @@ const generateClassName = incstr.idGenerator({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   images: {
     unoptimized: true,
+  },
+  experimental: {
+    webpackBuildWorker: true
   },
   webpack: (config, { dev, isServer }) => {
 

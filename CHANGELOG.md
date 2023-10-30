@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.22] - 2023-10-30
+
+### Miscellaneous Tasks
+
+- Add `output` property in next config and optimize scripts
+- Implement experimental webpack builder in Next.js configuration
+
 ## [1.2.21] - 2023-10-30
 
 ### Bug Fixes

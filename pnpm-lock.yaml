@@ -62,8 +62,8 @@ devDependencies:
     specifier: 1.2.3
     version: 1.2.3
   mangle-css-class-webpack-plugin:
-    specifier: 5.0.9
-    version: 5.0.9
+    specifier: 5.1.0
+    version: 5.1.0
   postcss:
     specifier: 8.4.31
     version: 8.4.31
@@ -2452,8 +2452,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /mangle-css-class-webpack-plugin@5.0.9:
-    resolution: {integrity: sha512-34XVgfBC7suJSnJOYGFJcrxPwPADplq53aEi7NXok0K6WJsdKYaF74AinKFBvETInc2UayqZBAVmX9x7jv1Ojw==}
+  /mangle-css-class-webpack-plugin@5.1.0:
+    resolution: {integrity: sha512-/K5ADYUFBLE8c6on3SCduDuOTJ6Wg0BrQ8JQuX8XNOvXI5Pz4SczaRNN2qv0Ocks7kSTXeGaGXIgQZe4lX2m9A==}
     dev: true
 
   /merge-stream@2.0.0:

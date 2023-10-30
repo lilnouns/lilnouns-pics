@@ -28,7 +28,7 @@ dependencies:
     version: 6.4.0(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
   next-sitemap:
     specifier: 4.1.3
-    version: 4.1.3(@next/env@13.4.4)(next@14.0.0)
+    version: 4.1.3(@next/env@14.0.0)(next@14.0.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20230518.0
-    version: 4.20230518.0
+    specifier: 4.20231025.0
+    version: 4.20231025.0
   '@types/node':
     specifier: 20.8.9
     version: 20.8.9
@@ -144,8 +144,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20230518.0:
-    resolution: {integrity: sha512-A0w1V+5SUawGaaPRlhFhSC/SCDT9oQG8TMoWOKFLA4qbqagELqEAFD4KySBIkeVOvCBLT1DZSYBMCxbXddl0kw==}
+  /@cloudflare/workers-types@4.20231025.0:
+    resolution: {integrity: sha512-TkcZkntUTOcvJ4vgmwpNfLTclpMbmbClZCe62B25/VTukmyv91joRa4eKzSjzCZUXTbFHNmVdOpmGaaJU2U3+A==}
     dev: true
 
   /@corex/deepmerge@4.0.43:
@@ -477,10 +477,6 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
-
-  /@next/env@13.4.4:
-    resolution: {integrity: sha512-q/y7VZj/9YpgzDe64Zi6rY1xPizx80JjlU2BTevlajtaE3w1LqweH1gGgxou2N7hdFosXHjGrI4OUvtFXXhGLg==}
-    dev: false
 
   /@next/env@14.0.0:
     resolution: {integrity: sha512-cIKhxkfVELB6hFjYsbtEeTus2mwrTC+JissfZYM0n+8Fv+g8ucUfOlm3VEDtwtwydZ0Nuauv3bl0qF82nnCAqA==}
@@ -2622,7 +2618,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /next-sitemap@4.1.3(@next/env@13.4.4)(next@14.0.0):
+  /next-sitemap@4.1.3(@next/env@14.0.0)(next@14.0.0):
     resolution: {integrity: sha512-eCvbXMCqbD/rYx912y4FzGOqPCbWOIBL4UkgVY5R15eCXygKFKWzEVZGPNVBDu2KVpRCeG943NibOchfyQGDhQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -2631,7 +2627,7 @@ packages:
       next: '*'
     dependencies:
       '@corex/deepmerge': 4.0.43
-      '@next/env': 13.4.4
+      '@next/env': 14.0.0
       fast-glob: 3.2.12
       minimist: 1.2.8
       next: 14.0.0(react-dom@18.2.0)(react@18.2.0)

@@ -15,7 +15,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    webpackBuildWorker: true
+    webpackBuildWorker: false
   },
   webpack: (config, { dev, isServer }) => {
 

@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.27] - 2023-11-11
+
+### Refactor
+
+- Improve font usage for better CSS variable compatibility
+- Extracted layout to a separate component
+
+### Miscellaneous Tasks
+
+- Add PT-Root-UI and Londrina Solid fonts to the project
+- Update `fontFamily` in `tailwind.config.js`
+- Disable webpack build worker in `next.config.js` file
+
 ## [1.2.26] - 2023-11-11
 
 ### Bug Fixes

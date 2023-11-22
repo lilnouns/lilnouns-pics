@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.28] - 2023-11-22
+
+### Documentation
+
+- Update social media link on `README.md`
+
 ## [1.2.27] - 2023-11-11
 
 ### Refactor

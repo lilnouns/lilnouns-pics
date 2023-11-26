@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.29] - 2023-11-26
+
+### Bug Fixes
+
+- Solve some minor issues and update dependencies
+
 ## [1.2.28] - 2023-11-22
 
 ### Documentation

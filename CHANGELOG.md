@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.32] - 2024-01-07
+
+### Documentation
+
+- Add some badges to the project readme file
+
 ## [1.2.31] - 2023-12-27
 
 ### Bug Fixes

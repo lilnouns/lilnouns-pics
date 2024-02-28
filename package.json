@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-pics",
-  "version": "1.2.37",
+  "version": "1.2.38",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,12 +24,12 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240208.0",
-    "@types/node": "20.11.19",
-    "@types/react": "18.2.55",
+    "@cloudflare/workers-types": "4.20240222.0",
+    "@types/node": "20.11.20",
+    "@types/react": "18.2.60",
     "@types/react-dom": "18.2.19",
     "autoprefixer": "10.4.17",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.1.0",
@@ -37,10 +37,10 @@
     "serve": "14.2.1",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3",
-    "wrangler": "3.28.3"
+    "wrangler": "3.30.0"
   },
   "resolutions": {
-    "undici": ">=5.28.3"
+    "undici": ">=6.6.1"
   },
   "funding": [
     {

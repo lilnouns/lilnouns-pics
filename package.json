@@ -37,7 +37,7 @@
     "serve": "14.2.1",
     "tailwindcss": "3.4.1",
     "typescript": "5.4.3",
-    "wrangler": "3.36.0"
+    "wrangler": "3.37.0"
   },
   "resolutions": {
     "undici": ">=6.6.1"

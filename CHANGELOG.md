@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.42] - 2024-04-24
+
+### Miscellaneous Tasks
+
+- Bump pnpm version from ^8 to ^9 on build workflow
+- Update ESLint config file and add more plugins
+
 ## [1.2.41] - 2024-04-18
 
 ### Bug Fixes

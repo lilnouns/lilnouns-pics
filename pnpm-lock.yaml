@@ -71,8 +71,8 @@ devDependencies:
     specifier: 0.0.0
     version: 0.0.0
   eslint-plugin-next-on-pages:
-    specifier: 1.11.0
-    version: 1.11.0(eslint@9.2.0)
+    specifier: 1.11.2
+    version: 1.11.2(eslint@9.2.0)
   eslint-plugin-tailwindcss:
     specifier: 3.15.1
     version: 3.15.1(tailwindcss@3.4.3)
@@ -1916,8 +1916,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-next-on-pages@1.11.0(eslint@9.2.0):
-    resolution: {integrity: sha512-A2QDtrkTcPrwIwVjKUI7DiUUqCXw1TjFw+vS8vpaoRpCmjwATH5tDaO/fNWs15Xtvl+L89hAW03MB8bsc06foA==}
+  /eslint-plugin-next-on-pages@1.11.2(eslint@9.2.0):
+    resolution: {integrity: sha512-iupdXGL8f5sDYAzzbxDp5LMT71ZEJYt0syWfxdIyxbn2jfvQYR0/mIAszlbz7DVJJVmTuF7dzLLhQDJslP49lg==}
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:

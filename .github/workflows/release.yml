@@ -13,7 +13,7 @@ jobs:
       release_body: ${{ steps.release.outputs.RELEASE_BODY }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.3
+        uses: actions/checkout@v4.1.6
         with:
           fetch-depth: 0
 
@@ -46,7 +46,7 @@ jobs:
       contents: write
     steps:
       - name: Create the GitHub release
-        uses: softprops/action-gh-release@v2.0.4
+        uses: softprops/action-gh-release@v2.0.5
         with:
           body: ${{ needs.changelog.outputs.release_body }}
           prerelease: ${{ contains(github.ref, '-rc') || contains(github.ref, '-beta') || contains(github.ref, '-alpha') }}

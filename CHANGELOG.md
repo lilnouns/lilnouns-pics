@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 - Bump pnpm version from ^8 to ^9 on build workflow
 - Update ESLint config file and add more plugins
+- Add new Node.js version to the build workflow
 
 ## [1.2.41] - 2024-04-18
 

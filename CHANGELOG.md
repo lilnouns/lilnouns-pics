@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.44] - 2024-07-16
+
+### Miscellaneous Tasks
+
+- Create new `FUNDING.json` file (#665)
+
 ## [1.2.42] - 2024-04-24
 
 ### Miscellaneous Tasks

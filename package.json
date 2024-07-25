@@ -41,7 +41,7 @@
     "mangle-css-class-webpack-plugin": "5.1.0",
     "postcss": "8.4.40",
     "serve": "14.2.3",
-    "tailwindcss": "3.4.6",
+    "tailwindcss": "3.4.7",
     "typescript": "5.5.4",
     "wrangler": "3.67.0"
   },

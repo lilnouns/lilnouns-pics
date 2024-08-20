@@ -1,6 +1,6 @@
 {
   "name": "lilnouns-pics",
-  "version": "1.2.45",
+  "version": "1.2.46",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,26 +24,26 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20240729.0",
-    "@types/node": "22.1.0",
+    "@cloudflare/workers-types": "4.20240815.0",
+    "@types/node": "22.4.1",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
-    "eslint": "9.8.0",
+    "eslint": "9.9.0",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-lingui": "0.3.0",
     "eslint-plugin-next": "0.0.0",
-    "eslint-plugin-next-on-pages": "1.13.1",
+    "eslint-plugin-next-on-pages": "1.13.2",
     "eslint-plugin-tailwindcss": "3.17.4",
     "eslint-plugin-unicorn": "55.0.0",
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.1.0",
-    "postcss": "8.4.40",
+    "postcss": "8.4.41",
     "serve": "14.2.3",
-    "tailwindcss": "3.4.7",
+    "tailwindcss": "3.4.10",
     "typescript": "5.5.4",
-    "wrangler": "3.68.0"
+    "wrangler": "3.72.0"
   },
   "resolutions": {
     "undici": ">=6.11.1"

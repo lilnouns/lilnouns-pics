@@ -40,7 +40,7 @@
     "incstr": "1.2.3",
     "mangle-css-class-webpack-plugin": "5.1.0",
     "postcss": "8.4.47",
-    "serve": "14.2.3",
+    "serve": "14.2.4",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3",
     "wrangler": "3.80.2"
